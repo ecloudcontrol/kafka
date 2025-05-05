@@ -26,7 +26,7 @@ volumes:
 
 properties:
 
-    KAFKA_BROKERS: "0@kafka-0:9093,1@kafka-1:9093,2@kafka-2:9093"
+    #KAFKA_BROKERS: "0@kafka-0:9093,1@kafka-1:9093,2@kafka-2:9093"
     KAFKA_REPLICATION_FACTOR: 3
     KAFKA_MIN_ISR: 2
     KAFKA_CLUSTER_ID:     
