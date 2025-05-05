@@ -24,7 +24,7 @@ volumes:
     name: data
     size: 5Gi
 
-properties:
+#properties:
 
     #KAFKA_BROKERS: "0@kafka-0:9093,1@kafka-1:9093,2@kafka-2:9093"
   #KAFKA_REPLICATION_FACTOR: 3
